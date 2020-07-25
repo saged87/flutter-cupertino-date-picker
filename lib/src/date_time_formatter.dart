@@ -27,7 +27,7 @@ class DateTimeFormatter {
 
   /// Check if the date format is for time(contain H、m、s) or not.
   static bool isTimeFormat(String format) {
-    return format.contains(RegExp(r'[Hms]'));
+    return format.contains(RegExp(r'[Hhmsa]'));
   }
 
   /// Split date format to array.
