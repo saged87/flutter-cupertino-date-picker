@@ -261,7 +261,7 @@ class _DateTimePickerWidgetState extends State<DateTimePickerWidget> {
           }
         },
       );
-    });
+    }).toList();
     pickers.addAll(timePickers);
 
     return Row(
